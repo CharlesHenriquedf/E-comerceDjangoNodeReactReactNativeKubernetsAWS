@@ -1,0 +1,28 @@
+# Arquivos de ambiente
+.env
+
+# Diretórios de dependências Node.js
+node_modules/
+
+# Diretório de ambiente virtual Python
+venv/
+
+# Arquivos de banco de dados PostgreSQL
+*.pid
+*.db
+
+# Bytecode Python
+__pycache__/
+*.pyc
+
+# Arquivos de cache e logs
+*.log
+.cache
+*.tmp
+
+# Arquivos de configuração do sistema
+.DS_Store
+
+# Arquivos de configuração do editor
+.idea/
+.vscode/

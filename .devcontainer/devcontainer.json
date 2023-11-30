@@ -1,0 +1,29 @@
+{
+  "name": "Meu Sistema - Backend Development",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "django-api",
+  "workspaceFolder": "/app",
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "python.pythonPath": "/usr/local/bin/python",
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": true,
+        "python.formatting.autopep8Path": "/usr/local/bin/autopep8",
+        "python.formatting.blackPath": "/usr/local/bin/black",
+        "python.formatting.yapfPath": "/usr/local/bin/yapf",
+        "python.linting.flake8Path": "/usr/local/bin/flake8"
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  },
+
+  "forwardPorts": [8000, 3000],
+  "postCreateCommand": "echo 'Ambiente de desenvolvimento backend pronto!'",
+  "shutdownAction": "stopCompose"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-api-e-commerce",
+  "version": "1.0.0",
+  "description": "NodeJS API for the system",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
